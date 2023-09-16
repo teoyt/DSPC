@@ -7,8 +7,8 @@
 //
 
 #include <stdio.h>
-#include "C:\Users\yuton\source\repos\Try\Try\movie.h"
-#include "C:\Users\yuton\source\repos\Try\Try\perceptron.h"
+#include "movie.h"
+#include "perceptron.h"
 #include <math.h>
 
 using namespace std;

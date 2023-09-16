@@ -7,7 +7,7 @@
 //
 
 #include <stdio.h>
-#include "C:\Users\yuton\source\repos\Try\Try\kfold.h"
+#include "kfold.h"
 #include <math.h>
 
 using namespace std;

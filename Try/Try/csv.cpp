@@ -7,7 +7,7 @@
 //
 
 #include <stdio.h>
-#include "C:\Users\yuton\source\repos\Try\Try\csv.h"
+#include "csv.h"
 #include <sstream>
 #include <string>
 #include <iostream>

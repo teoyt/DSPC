@@ -10,7 +10,7 @@
 #define kmeans_h
 
 #include <vector>
-#include "C:\Users\yuton\source\repos\Try\Try\movie.h"
+#include "movie.h"
 
 //K-Means Clustering Namespace
 namespace KmeansCluster {

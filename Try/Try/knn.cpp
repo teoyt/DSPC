@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 #include <stdio.h>
-#include "C:\Users\yuton\source\repos\Try\Try\knn.h"
+#include "knn.h"
 #include <math.h>
 #include <iostream>
 #include <algorithm>

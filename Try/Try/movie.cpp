@@ -9,7 +9,7 @@
 #include <stdio.h>
 
 #include <stdio.h>
-#include "C:\Users\yuton\source\repos\Try\Try\movie.h"
+#include "movie.h"
 #include <math.h>
 
 using namespace std;
@@ -53,6 +53,8 @@ namespace MovieData{
         }
         return true;
     }
-    
+    int Movie::getSize() const {
+        return attr.size();
+    }
     
 }

@@ -10,7 +10,7 @@
 #define movie_h
 
 #include <vector>
-#include "C:\Users\yuton\source\repos\Try\Try\csv.h"
+#include "csv.h"
 
 //Global constants
 const int GROSS = 7;
@@ -21,8 +21,10 @@ namespace MovieData {
     //data structure to process movie data
     class Movie{
         //members
-        std::vector<float>attr;
+       
+
     public:
+        std::vector<float>attr;
         //constructor
         Movie(std::vector<float>data);
         
@@ -37,7 +39,12 @@ namespace MovieData {
         
         //Operator to return whether two Movies are the same
         bool operator==(Movie& aMovie);
-        
+
+        int getSize() const;
+
+        const std::vector<float>& getAttributes() const {
+            return attr;
+        }
     };
 }
 

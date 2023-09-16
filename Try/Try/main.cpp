@@ -17,7 +17,7 @@
 #include <math.h>
 #include "perceptron.h"
 #include "kfold.h"
-
+#include <chrono>
 using namespace std;
 using namespace CsvProc;
 using namespace MovieData;
@@ -28,10 +28,11 @@ using namespace KfoldValidation;
 
 
 
-const string trainFile = "/Users/mdkabir/Documents/MovieGross/MovieGross/train_moviedata.csv";
-const string testFile = "/Users/mdkabir/Documents/MovieGross/MovieGross/test_moviedata.csv";
+//const string trainFile = "/Users/mdkabir/Documents/MovieGross/MovieGross/train_moviedata.csv";
+//const string testFile = "/Users/mdkabir/Documents/MovieGross/MovieGross/test_moviedata.csv";
 
-
+const string trainFile = "D:/TARC/Year3/sem7/Distributed Systems and Parallel Computing/DSPC/Try/Try/train_moviedata.csv";
+const string testFile = "D:/TARC/Year3/sem7/Distributed Systems and Parallel Computing/DSPC/Try/Try/test_moviedata.csv";
 
 //function to run a specific algorithm
 void runAlgorithm(vector<Movie>&train,vector<Movie>&test,Csv&t1,Csv&t2){
