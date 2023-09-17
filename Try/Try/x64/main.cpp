@@ -9,16 +9,26 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
-#include "C:\Users\yuton\source\repos\Try\Try\csv.h"
-#include "C:\Users\yuton\source\repos\Try\Try\movie.h"
 #include <string>
-#include "C:\Users\yuton\source\repos\Try\Try\knn.h"
-#include "C:\Users\yuton\source\repos\Try\Try\kmeans.h"
 #include <math.h>
-#include "C:\Users\yuton\source\repos\Try\Try\perceptron.h"
-#include "C:\Users\yuton\source\repos\Try\Try\kfold.h"
 #include <chrono>
+//yutong
+//#include "C:\Users\yuton\source\repos\Try\Try\csv.h"
+//#include "C:\Users\yuton\source\repos\Try\Try\knn.h"
+//#include "C:\Users\yuton\source\repos\Try\Try\kmeans.h"
+//#include "C:\Users\yuton\source\repos\Try\Try\movie.h"
+//#include "C:\Users\yuton\source\repos\Try\Try\perceptron.h"
+//#include "C:\Users\yuton\source\repos\Try\Try\kfold.h"
 
+//waimin
+#include "D:\TARC\Year3\sem7\Distributed Systems and Parallel Computing\DSPC\Try\Try\movie.h"
+#include "D:\TARC\Year3\sem7\Distributed Systems and Parallel Computing\DSPC\Try\Try\csv.h"
+#include "D:\TARC\Year3\sem7\Distributed Systems and Parallel Computing\DSPC\Try\Try\knn.h"
+#include "D:\TARC\Year3\sem7\Distributed Systems and Parallel Computing\DSPC\Try\Try\kmeans.h"
+#include "D:\TARC\Year3\sem7\Distributed Systems and Parallel Computing\DSPC\Try\Try\perceptron.h"
+#include "D:\TARC\Year3\sem7\Distributed Systems and Parallel Computing\DSPC\Try\Try\kfold.h" 
+
+    
 using namespace std;
 using namespace CsvProc;
 using namespace MovieData;
@@ -29,9 +39,10 @@ using namespace KfoldValidation;
 
 
 
-const string trainFile = "C:/Users/yuton/source/repos/Try/Try/test_moviedata.csv";
-const string testFile = "C:/Users/yuton/source/repos/Try/Try/test_moviedata.csv";
-
+//const string trainFile = "C:/Users/yuton/source/repos/Try/Try/test_moviedata.csv";
+//const string testFile = "C:/Users/yuton/source/repos/Try/Try/test_moviedata.csv";
+const string trainFile = "D:/TARC/Year3/sem7/Distributed Systems and Parallel Computing/DSPC/Try/Try/test_moviedata.csv";
+const string testFile = "D:/TARC/Year3/sem7/Distributed Systems and Parallel Computing/DSPC/Try/Try/test_moviedata.csv";
 
 
 //function to run a specific algorithm
